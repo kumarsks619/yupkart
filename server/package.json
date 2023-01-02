@@ -4,7 +4,8 @@
   "description": "MERN e-commerce website",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "data:import": "node seeder.js",
     "data:destroy": "node seeder.js -d"
   },
